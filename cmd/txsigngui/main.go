@@ -132,7 +132,7 @@ func main() {
 	ui := buildUI()
 
 	window.Add(ui)
-	window.SetSizeRequest(320, 400)
+	window.SetSizeRequest(480, 400)
 	window.Show()
 
 	unsignedTxFile = os.Args[1] + "/unsigned-tx.json"

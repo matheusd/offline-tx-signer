@@ -18,6 +18,12 @@ I'm assuming you're running from source, given I haven't generated public binari
 
 Also, this is hard coded to use testnet.
 
+You might need packages (apt-get/dnf/etc):
+
+```
+libglib2.0-dev libcairo2-dev libgtk2.0-dev
+```
+
 ### On the regular wallet machine
 
 This could be a watch only wallet.
